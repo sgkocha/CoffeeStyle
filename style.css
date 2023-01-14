@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 1440px;
+    margin: 0 auto;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+.header {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+.nav-list-item a {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    text-decoration: none;
+}
+.nav-list-item a:hover {
+    border-bottom: 1px dotted blue;
+}
+.header-cart {
+    background: url("./images/cart.png") no-repeat;
+    margin-top: 7px;
+    padding-top: 4px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+.header-cart span {
+    display: inline-block;
+    width: 20px;
+    height: 18px;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 60%;
+    margin-left: 8px;
+    padding-bottom: 19px;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.coffee-mags {
+    width: 1380px;
+    margin: 91px auto;
+    background: #050827 url("./images/mags.png") no-repeat center;
+    padding-top: 159px;
+    padding-bottom: 159px;
+    padding-left: 293.5px;
+    padding-right: 293.5px;
+    text-align: center;
+}
+.coffee-mags-undertitle {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.coffee-mags-title {
+    margin-top: 10px;
+    font-size: 47px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.coffee-mags-subtitle {
+    margin-top: 10px;
+    margin-bottom: 48px;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.coffee-mags-explore {
+    display: block;
+    margin: 0 auto;
+    width: 233px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1D1F2E
+}
+.coffee-story {
+    width: 658px;
+    margin: 29px auto;
+    text-align: center;
+}
+.coffee-story-title {
+    width: 578px;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: #1D1F2E;
+}
+.coffee-story-subtitle {
+    margin-top: 16px;
+    margin-bottom: 21px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(29, 31, 46, 0.7);
+}
+.coffee-story-full {
+    display: block;
+    margin: 0 auto;
+    width: 133px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #A25F4B;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #A25F4B;
+    cursor: pointer;
+}
+.featured-mugs {
+    width: 960px;
+    margin: 100px auto;
+    text-align: center;
+}
+.mugs-title-wrapper {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.mugs-title-wrapper img {
+    display: block;
+}
+.mugs-title {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+
+.featured-mugs-box, .more-products-box {
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.mugs-item-title {
+    margin-top: 35px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #1D1F2E;
+}
+.mugs-item-price {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+    text-align: center;
+}
+.current-price span {
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: rgba(29, 31, 46, 0.4);
+}
+.current-price {
+    font-size: 19px;
+    line-height: 32px;
+    text-align: center;
+    color: #A25F4B;
+}
+.more-products-box {
+    flex-wrap: wrap;
+    row-gap: 70px;
+}
+.more-products-item {
+    flex-basis: 33.33%;
+    text-align: center;
+}
