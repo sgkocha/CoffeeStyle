@@ -211,3 +211,141 @@ body {
     flex-basis: 33.33%;
     text-align: center;
 }
+.shopping {
+    width: 940px;
+    margin: 100px auto;
+    margin-bottom: 100px;
+}
+.shopping-box {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.shopping-images {
+    display: flex;
+    gap: 20px
+}
+.shopping-images-item:nth-child(2) img {
+    display: block;
+    margin-bottom: 20px;
+}
+.shopping-info-undertitle {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+.shopping-info-title {
+    width: 237px;
+    margin-top: 14px;
+    font-size: 36px;
+    line-height: 50px;
+    color: #1D1F2E;
+}
+.shopping-info-subtitle {
+    width: 353px;
+    margin-top: 15px;
+    margin-bottom: 34px;
+}
+.shopping-info-start {
+    display: block;
+    width: 173px;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    background-color: #1D1F2E;
+    border: 1px solid #1D1F2E;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.coffeestyle-blog{
+    width: 940px;
+    margin: 100px auto;
+}
+.coffeestyle-blog-box {
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+}
+.blog-item-title {
+    width: 297px;
+    margin-top: 25.19px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #1D1F2E;
+}
+.blog-item-subtitle {
+    width: 281px;
+    margin-top: 14px;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+}
+.blog-item-date {
+    margin-top: 16px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+.coffee-updates {
+    width: 1380px;
+    margin: 144px auto;
+    padding-top: 79.96px;
+    padding-bottom: 85.04px;
+    background: #1D1F2E;
+    text-align: center;
+}
+.coffee-updates .mugs-title {
+    color: #FFFFFF;
+}
+.coffee-updates-title {
+    margin-top: 15.04px;
+    font-size: 36px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.coffee-updates-form {
+    margin-top: 24.96px;
+    
+}
+.coffee-updates-form input {
+    width: 379px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 18.5px;
+    padding-right: 129px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.coffee-updates-form input::placeholder {
+    color: #FFFFFF;
+}
+.subscribe-btn {
+    width: 129px;
+    padding-top: 18.04px;
+    padding-bottom: 17.96px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+    cursor: pointer;
+}
