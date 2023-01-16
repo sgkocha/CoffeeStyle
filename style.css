@@ -349,3 +349,53 @@ body {
     color: #000000;
     cursor: pointer;
 }
+.footer {
+    width: 940px;
+    margin: 107px auto;
+    padding-bottom: 62px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-info {
+    margin-top: 22px;
+    margin-bottom: 82px;
+    width: 258px;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.7);
+}
+.footer-rights {
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.3);
+}
+.block-title {
+    margin-bottom: 23.01px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+.list {
+    list-style-type: none;
+}
+.list-item a {
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 22px;
+    text-decoration: none;
+    color: rgba(29, 31, 46, 0.7);
+}
+.contact-desc {
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.7);
+}
+.contact-email {
+    margin-top: 15px;
+    margin-bottom: 55px;
+    font-size: 23px;
+    line-height: 36px;
+    color: #1D1F2E;
+}
